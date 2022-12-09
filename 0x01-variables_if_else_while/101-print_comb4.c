@@ -16,7 +16,7 @@ int main(void)
 	{
 		hundreds = num / 100;
 		tens = (num / 10) % 10;
-		ones = % 10;
+		ones =num % 10;
 
 		if (hundreds < tens && tens < ones)
 		{
